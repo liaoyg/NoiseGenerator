@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FastNoise.cpp" />
+    <ClCompile Include="WhiteNoise.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FastNoise.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EEAC22AF-810B-4638-BC11-D576F11E1391}</ProjectGuid>
     <RootNamespace>NoiseGenerator</RootNamespace>
@@ -109,8 +116,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
